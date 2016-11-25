@@ -1,0 +1,12 @@
+implemented the matlab inhull.m, however, inhull itself is not right.
+
+solution:
+
+1. fix inhull?
+
+2. check qhull to give a and N
+
+3. check the tessalation in python, check its dimension
+
+
+after qhull Fv, I actually get the point index in the facets, translate it to point coordinates by only extract the first column of vertice file, only need one point for each facet
